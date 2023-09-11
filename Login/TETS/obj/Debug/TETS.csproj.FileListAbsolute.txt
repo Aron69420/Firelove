@@ -1,0 +1,15 @@
+C:\Users\jannis\source\repos\TETS\TETS\bin\Debug\TETS.exe.config
+C:\Users\jannis\source\repos\TETS\TETS\bin\Debug\TETS.exe
+C:\Users\jannis\source\repos\TETS\TETS\bin\Debug\TETS.pdb
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\TETS.csproj.AssemblyReference.cache
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\MainWindow.g.cs
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\App.g.cs
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\TETS_MarkupCompile.cache
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\TETS_MarkupCompile.lref
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\MainWindow.baml
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\TETS.g.resources
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\TETS.Properties.Resources.resources
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\TETS.csproj.GenerateResource.cache
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\TETS.csproj.CoreCompileInputs.cache
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\TETS.exe
+C:\Users\jannis\source\repos\TETS\TETS\obj\Debug\TETS.pdb
