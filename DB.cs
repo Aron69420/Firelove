@@ -15,16 +15,20 @@ namespace DB_verknüpfen
         public int Alter { get; set; }
         public int GenderID { get; set; }
     }
+    public class Persönlichedaten
+    {
+        public string email  {get; set; }
+
+        public string password { get; set; }
+    }
     public static class db
     {
-        public static void DBLoad()
+        // Dateipfad zu Datenbank
+        private static string connectionString = @"Data Source=..\..\..\..\FireLove20.db;Version=3;";
+
+        private static SQLiteConnection connection = new SQLiteConnection(connectionString);
+        public static void Load()
         {
-            // Dateipfad zu Datenbank
-            string connectionString = @"Data Source=..\..\..\..\FireLove20.db;Version=3;";
-
-            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
-            {
-
                 connection.Open();
                 // Name aus der Tabelle User auswählen
                 var cmd = connection.CreateCommand();
@@ -32,7 +36,6 @@ namespace DB_verknüpfen
                 cmd.CommandType = System.Data.CommandType.Text;
                 //cmd.CommandText = "PRAGMA table_info(User)";
                 var reader = cmd.ExecuteReader();
-                List<string> list = new();
                 List<User> userlist = new List<User>();
             
                 while (reader.Read())
@@ -53,7 +56,39 @@ namespace DB_verknüpfen
                     
                     connection.Close();
                 Debug.WriteLine(userlist[1].name);
+            
+
+
+        }
+        public static void Login(string name, string password)
+        {
+            connection.Open();
+            // Name aus der Tabelle User auswählen
+            var cmd = connection.CreateCommand();
+            cmd.CommandText = "SELECT * Persönlichedaten";
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.CommandText = "PRAGMA table_info(User)";
+            var reader = cmd.ExecuteReader();
+            List<Persönlichedaten> Loginlist = new List<Persönlichedaten>();
+
+            while (reader.Read())
+            {
+                Persönlichedaten user = new Persönlichedaten
+                {
+                    email = reader.GetString(reader.GetOrdinal("e-mail")),
+                    password = reader.GetString(reader.GetOrdinal("password")),
+                    
+
+                    // Fügen Sie hier weitere Eigenschaften hinzu, falls vorhanden
+                };
+                
+
+                Loginlist.Add(Persönlichedaten);
             }
+
+            connection.Close();
+           
+
 
 
         }
