@@ -1,0 +1,15 @@
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\bin\Debug\emo.exe.config
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\bin\Debug\emo.exe
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\bin\Debug\emo.pdb
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\emo.csproj.AssemblyReference.cache
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\MainWindow.g.cs
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\App.g.cs
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\emo_MarkupCompile.cache
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\emo_MarkupCompile.lref
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\MainWindow.baml
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\emo.g.resources
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\emo.Properties.Resources.resources
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\emo.csproj.GenerateResource.cache
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\emo.csproj.CoreCompileInputs.cache
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\emo.exe
+C:\Users\seege\Desktop\schule\Software Grau\emo\emo\obj\Debug\emo.pdb
